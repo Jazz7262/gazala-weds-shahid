@@ -1,0 +1,132 @@
+/* Big Screens */
+#couple {
+    padding: 7% 7% 0;
+}
+
+#couple .title-quote {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #002c6a;
+    font-family: "Great Vibes", cursive;
+    color: #002c6a;
+}
+
+#couple .row {
+    padding: 7% 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#couple .col-lg-5,
+.col-lg-2 {
+    padding: 0;
+}
+
+#couple .heart-mid {
+    width: 85%;
+    margin-top: 50%;
+}
+
+#couple .img-wrapper {
+    display: inline-block;
+    border: 5px solid #002c6a;
+    border-radius: 50%;
+    padding: 10px;
+    width: 80%;
+}
+
+#couple .couple-img {
+    width: 100%;
+    border: 2px solid #002c6a;
+    border-radius: 50%;
+}
+
+#couple .info {
+    padding-top: 12%;
+}
+
+#couple .info h3 {
+    color: #002c6a;
+}
+
+#couple .info sub {
+    font-size: 0.8rem;
+}
+
+#couple .info p {
+    color: #444444;
+    margin: 0px;
+}
+
+/* Carousel Buttons */
+.carousel-control-next {
+    right: -20px;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002c6a81' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev {
+    left: -20px;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002c6a81' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #002c6a81;
+}
+.carousel-indicators .active {
+    background-color: #002c6a;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #couple {
+        padding: 10% 10% 0;
+    }
+    #couple .title-quote {
+        font-size: 1.5rem;
+    }
+
+    #couple .img-wrapper {
+        width: 70%;
+    }
+    #couple .couple-img {
+        width: 100%;
+    }
+#couple .info {
+    padding-top: 7%;
+}
+#couple .info.groom-info {
+    padding-top: 15%;
+}
+    #couple .info p {
+        font-size: 12px;
+    }
+    #couple h3 {
+        font-size: 1rem;
+    }
+    #couple .heart-mid {
+        width: 40%;
+        margin: 10%;
+    }
+    /* Carousel Buttons */
+    .carousel-control-next {
+        right: 0px;
+    }
+    .carousel-control-prev {
+        left: 0px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

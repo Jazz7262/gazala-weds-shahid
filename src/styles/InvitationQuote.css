@@ -1,0 +1,47 @@
+/* Big Screens */
+#invitation-quote {
+    background: url("../../public/assets/images/bg-img.jpg") repeat fixed 100%;
+}
+
+#invitation-quote .inner-content {
+    padding: 7% 15%;
+    color: white;
+}
+
+#invitation-quote .inner-content h1 {
+    line-height: 2;
+    font-family: "Great vibes", cursive;
+    word-spacing: 5px;
+}
+
+#invitation-quote .inner-content h4 {
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.5;
+    font-family: "Mulish", sans-serif;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #invitation-quote {
+        background: url("../../public/assets/images/bg-img-sm.gif") repeat fixed
+            100%;
+    }
+    #invitation-quote .inner-content {
+        padding: 7% 10%;
+    }
+    #invitation-quote .inner-content h1 {
+        font-size: 1.5rem;
+    }
+    #invitation-quote .inner-content h4 {
+        font-size: 1rem;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

@@ -1,0 +1,50 @@
+/* Big Screens */
+#babies-quote {
+    background: url("../../public/assets/images/babies.png") repeat fixed 100%;
+}
+
+#babies-quote .inner-content {
+    padding: 7% 15%;
+    color: #002c6a;
+}
+
+#babies-quote .inner-content h1 {
+    line-height: 2;
+    font-family: "Great vibes", cursive;
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+#babies-quote .inner-content h3 {
+    text-align-last: right;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 1.5;
+    font-family: "Tangerine", cursive;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #babies-quote {
+        background: url("../../public/assets/images/babies-sm.png") repeat fixed
+            100%;
+      
+    }
+    #babies-quote .inner-content {
+        padding: 7% 10%;
+    }
+    #babies-quote .inner-content h1 {
+        font-size: 1.5rem;
+    }
+    #babies-quote .inner-content h3 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}
