@@ -26,7 +26,7 @@ function Urdu(props) {
             once: true,
             mirror: false,
         });
-        setIsEnglish(false);
+        setIsEnglish(false); // eslint-disable-next-line
     }, []);
     return (
         <section id="urdu-section">

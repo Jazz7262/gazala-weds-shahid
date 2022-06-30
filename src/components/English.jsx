@@ -25,7 +25,7 @@ function English(props) {
             once: true,
             mirror: false,
         });
-        setIsEnglish(true);
+        setIsEnglish(true); // eslint-disable-next-line
     }, []);
 
     return (
