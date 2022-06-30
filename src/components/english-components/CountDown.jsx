@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Duration from "duration-js";
 import Clock from "./Clock";
-import "../styles/CountDown.css";
+import "./styles/CountDown.css";
 
 function CountDown() {
     let date1 = new Date("2022 7 24 12:45 PM");
@@ -18,7 +18,7 @@ function CountDown() {
             secs: diff.seconds() % 60,
         });
     }
-    
+
     setInterval(getDuration, 1000);
 
     return (
@@ -29,7 +29,7 @@ function CountDown() {
                         <div className="bg-color">
                             <div className="title">
                                 <div className="content">
-                                    <h4>We are waiting for</h4>
+                                    <h5>We are waiting for</h5>
                                     <h1>The Big Day ...</h1>
                                 </div>
                             </div>

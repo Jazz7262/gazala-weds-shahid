@@ -1,21 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import $ from "jquery";
-import AOS from "aos";
+
 import "../styles/CustomModel.css";
 
-function CustomModel() {
+function CustomModel(props) {
+    const { setIsPlaying } = props;
+
     function handleClick() {
         $("#modal").fadeOut();
-        $("body").removeAttr("style");
-        AOS.init({
-            duration: 1000,
-            easing: "ease-in-out",
-            once: true,
-            mirror: false,
-        });
-        
+
         document.getElementById("audio").play();
+
+        setIsPlaying(true);
     }
+
+    useEffect(() => {
+        $("body").css("overflow", "hidden");
+
+        const audio = document.getElementById("audio");
+        audio.pause();
+        audio.currentTime = 0;
+        setIsPlaying(false); // eslint-disable-next-line
+    }, []);
 
     return (
         <section id="modal">
@@ -32,9 +39,20 @@ function CustomModel() {
                     </span>
                 </div>
                 <div className="modal-footer">
-                    <button className="btn btn-primary" onClick={handleClick}>
-                        Open
-                    </button>
+                    <Link
+                        to="/urdu"
+                        className="btn btn-primary btn-urdu"
+                        onClick={handleClick}
+                    >
+                        اردو
+                    </Link>
+                    <Link
+                        to="/english"
+                        className="btn btn-primary"
+                        onClick={handleClick}
+                    >
+                        English
+                    </Link>
                 </div>
             </div>
         </section>

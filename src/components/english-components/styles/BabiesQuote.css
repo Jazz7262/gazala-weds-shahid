@@ -1,6 +1,6 @@
 /* Big Screens */
 #babies-quote {
-    background: url("../../public/assets/images/babies.png") repeat fixed 100%;
+    background: url("../../../../public/assets/images/bg-img-2.jpg") repeat fixed 100%;
 }
 
 #babies-quote .inner-content {
@@ -11,13 +11,11 @@
 #babies-quote .inner-content h1 {
     line-height: 2;
     font-family: "Great vibes", cursive;
-    font-weight: 600;
     word-spacing: 5px;
 }
 
 #babies-quote .inner-content h3 {
     text-align-last: right;
-    font-weight: 600;
     word-spacing: 5px;
     line-height: 1.5;
     font-family: "Tangerine", cursive;
@@ -30,7 +28,7 @@
 /* New Mobile Phones Wide Screens */
 @media (max-width: 428px) {
     #babies-quote {
-        background: url("../../public/assets/images/babies-sm.png") repeat fixed
+        background: url("../../../../public/assets/images/bg-img-2.jpg") repeat fixed
             100%;
       
     }

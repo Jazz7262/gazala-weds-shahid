@@ -1,20 +1,21 @@
 import React from "react";
-import "../styles/Timeline.css";
+import "./styles/Timeline.css";
 
 function Timeline() {
     return (
         <section id="timeline">
-            <h1 className="inshaallaah">Inshaallaah ...</h1>
+            <h5> بفضلہ تعالی طے پایا ہے</h5>
+            <h1 className="inshaallaah">انشآ الله</h1>
             <div className="timeline-wrapper">
                 <div className="row">
                     <div className="col-lg-6 left" data-aos="fade-down">
-                        <h1>Shukrana</h1>
+                        <h1>شكرانه</h1>
                         <p>
-                            On Saturdayday, 23<sup>rd</sup> July, 2022.
+                            بتاریخ 2022-07-23 ، بروز ہفتہ
                             <br />
-                            22<sup>nd</sup> Zilhajjah, 1443 Hijri,
+                            ذيل حجه 23 ، 1443 ہجری
                             <br />
-                            Time: 09:00 PM
+                            بوقت: 09:00 بجے شب ۔
                         </p>
                     </div>
                     <div className="col-lg-6 right" data-aos="fade-down"></div>
@@ -30,19 +31,21 @@ function Timeline() {
                         data-aos="fade-down"
                         data-aos-offset="200"
                     >
-                        <h1>Nikaah</h1>
+                        <h1>نکاح</h1>
                         <p>
-                            On Sunday, 24<sup>th</sup> July, 2022,
+                            بتاریخ 2022-07-24 ، بروز اتوار
                             <br />
-                            23<sup>rd</sup> Zilhajjah, 1443 Hijri,
+                            ذيل حجه 24 ، 1443 ہجری
                             <br />
-                            Time: 12:45 PM.
+                            بوقت: 12:45 بجے دن ۔
                         </p>
-                        <h2>Venue:</h2>
+                        <h2>:بمقام</h2>
                         <p>
-                            International Function Hall,
-                            <br /> 3<sup>rd</sup> Road, SKD Colony,
-                            <br /> Adoni.
+                            ، انٹرنیشنل فنکشن ہال
+                            <br />
+                            ، تیسری روڈ ، لیس،کے،ڈی، کالونی
+                            <br />
+                            ادونی ۔
                         </p>
                     </div>
                 </div>
@@ -53,19 +56,21 @@ function Timeline() {
                         data-aos-offset="200"
                         data-aos-delay="100"
                     >
-                        <h1>Valima</h1>
+                        <h1>وليمه</h1>
                         <p>
-                            On Monday, 25<sup>th</sup> July, 2022,
+                            بتاریخ 2022-07-25 ، بروز پیر
                             <br />
-                            24<sup>th</sup> Zilhajjah, 1443 Hijri,
+                            ذيل حجه 25 ، 1443 ہجری
                             <br />
-                            Time: 02:00 PM.
+                            بوقت: 02:00 بجے دوپہر ۔
                         </p>
-                        <h2>Venue:</h2>
+                        <h2>:بمقام</h2>
                         <p>
-                            International Function Hall,
-                            <br /> 3<sup>rd</sup> Road, SKD Colony,
-                            <br /> Adoni.
+                            ، انٹرنیشنل فنکشن ہال
+                            <br />
+                            ، تیسری روڈ ، لیس،کے،ڈی، کالونی
+                            <br />
+                            ادونی ۔
                         </p>
                     </div>
                     <div

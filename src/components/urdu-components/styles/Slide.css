@@ -1,0 +1,41 @@
+/* Big Screens */
+
+#urdu-section #slide {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+
+#urdu-section #slide .text-content {
+    top: 30%;
+}
+
+#urdu-section #slide h3 {
+    font-size: 120%;
+    margin-bottom: 30px;
+}
+
+#urdu-section #slide h1 {
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-weight: 700;
+    font-size: 180%;
+    margin-bottom: 30px;
+    /* line-height: 2; */
+}
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #urdu-section #slide h3 {
+        font-size: 60%;
+        margin-bottom: 15px;
+    }
+    #urdu-section #slide h1 {
+        font-size: 90%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

@@ -61,6 +61,12 @@
     background-color: #002c6a;
 }
 
+#modal .btn-urdu {
+    background-color: green;
+    font-family: "Noto Nastaliq Urdu", serif;
+    width: 76px;
+}
+
 /* Tablet Wide Screens */
 @media (max-width: 992px) {
     #modal .modal-heading .modal-title {

@@ -1,0 +1,27 @@
+/* Big Screens */
+
+#urdu-section #count-down .title h5 {
+    font-family: "Gulzar", serif;
+}
+
+#urdu-section #count-down .title h1 {
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 1.5rem;
+}
+
+#count-down .clock .caption {
+    font-family: "Noto Nastaliq Urdu", serif;
+    margin-top: 16px;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

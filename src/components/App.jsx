@@ -1,26 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Preloader from "./Preloader";
-import Navbar from "./Navbar";
-import Header from "./Header";
-import Slide from "./Slide";
+import English from "./English";
+import Urdu from "./Urdu";
 import BackToTopBtn from "./BackToTopBtn";
-import Couple from "./Couple";
-import InvitationQuote from "./InvitationQuote";
-import Timeline from "./Timeline";
-import CountDown from "./CountDown";
-import Compliments from "./Compliments";
-import InviteNote from "./InviteNote";
 import DeveloperInfo from "./DeveloperInfo";
 import Audio from "./Audio";
 import CustomModel from "./CustomModel";
+import Navbar from "./Navbar";
+import ChangeLanguage from "./ChangeLanguage.jsx";
 
 import $ from "jquery";
 
 import "aos/dist/aos.css";
 import "../styles/App.css";
-import BabiesQuote from "./BabiesQuote";
 
 function App() {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [isEnglish, setIsEnglish] = useState(false);
+
     useEffect(() => {
         $(document).on("scroll", function () {
             if (window.scrollY > 50) {
@@ -38,19 +36,26 @@ function App() {
     return (
         <>
             <Preloader />
-            <CustomModel />
             <Navbar />
-            <Header />
-            <Slide />
-            <Couple />
-            <InvitationQuote />
-            <BabiesQuote />
-            <Timeline />
-            <CountDown />
-            <Compliments />
-            <InviteNote />
+            <Router>
+                <Routes>
+                    <Route
+                        path="/"
+                        element={<CustomModel setIsPlaying={setIsPlaying} />}
+                    />
+                    <Route
+                        path="urdu"
+                        element={<Urdu setIsEnglish={setIsEnglish} />}
+                    />
+                    <Route
+                        path="english"
+                        element={<English setIsEnglish={setIsEnglish} />}
+                    />
+                </Routes>
+                <ChangeLanguage isEnglish={isEnglish} />
+            </Router>
             <DeveloperInfo />
-            <Audio />
+            <Audio isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
             <BackToTopBtn />
         </>
     );

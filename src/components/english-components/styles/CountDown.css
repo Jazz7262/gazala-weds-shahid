@@ -11,7 +11,7 @@
 }
 
 #count-down .bg-container {
-    background: url("../../public/assets/images/clock-bg.jpg");
+    background: url("../../../../public/assets/images/clock-bg.jpg");
     background-repeat: round;
 }
 
@@ -27,12 +27,11 @@
     font-family: "Great vibes", cursive;
 }
 
-#count-down .title h4 {
-    font-size: 1.25rem;
-}
+
 
 #count-down .title .content {
     border: 2px solid #f9ef9780;
+    padding: 20px;
 }
 
 #count-down .clock {
@@ -81,7 +80,7 @@
     #count-down .title h1 {
         font-size: 1.5rem;
     }
-    #count-down h4 {
+    #count-down h5 {
         font-size: 1rem;
     }
     #count-down .clock .num {

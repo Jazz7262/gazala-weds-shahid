@@ -22,10 +22,6 @@
     line-height: 1.5;
 }
 
-#header h4.ayat {
-    margin: 5% 0px;
-}
-
 /* Tablet Wide Screens */
 @media (max-width: 992px) {
 }
@@ -44,9 +40,6 @@
     }
     #header h4 {
         font-size: 12px;
-    }
-    #header h4.ayat {
-        margin: 7% 0px;
     }
 }
 

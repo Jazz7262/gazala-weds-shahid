@@ -1,0 +1,37 @@
+/* Big Screens */
+.change-lang-link {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    bottom: 85px;
+    background-color: #002c6a;
+    border-radius: 50%;
+    /* font-size: 12px; */
+}
+
+.change-lang-link a {
+    color: #f9f097;
+}
+
+.change-lang-link .urdu {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

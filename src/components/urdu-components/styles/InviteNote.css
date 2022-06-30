@@ -1,0 +1,26 @@
+/* Big Screens */
+
+#urdu-section #invite-note h2,
+#urdu-section #invite-note h5 {
+    line-height: 2.5;
+}
+
+#urdu-section #invite-note h2 {
+    font-family: "Noto Nastaliq Urdu", serif;
+}
+
+#urdu-section #invite-note p {
+    line-height: 2;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

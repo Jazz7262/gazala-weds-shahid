@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Couple.css";
+import "./styles/Couple.css";
 
 function Couple() {
     return (

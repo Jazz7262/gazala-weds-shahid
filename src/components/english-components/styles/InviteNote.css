@@ -11,6 +11,10 @@
     line-height: 1.5;
 }
 
+#invite-note .from h5 {
+    line-height: 1.5;
+}
+
 /* Tablet Wide Screens */
 @media (max-width: 992px) {
 }

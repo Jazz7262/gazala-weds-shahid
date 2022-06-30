@@ -20,6 +20,10 @@
     color: #002c6a;
 }
 
+.nav-bg .navbar-brand {
+    font-weight: 700;
+}
+
 .nav-bg {
     background-color: rgba(150, 150, 150, 0.7);
 }

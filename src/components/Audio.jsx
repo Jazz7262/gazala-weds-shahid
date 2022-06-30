@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import MusicOffIcon from "@mui/icons-material/MusicOff";
 import "../styles/Audio.css";
 
-function Audio() {
-    var [isPlaying, setIsPlaying] = useState(true);
+function Audio(props) {
+    const { isPlaying, setIsPlaying } = props;
 
     function handleClick() {
         var audio = document.getElementById("audio");
         if (isPlaying) audio.pause();
         else audio.play();
-        setIsPlaying((isPlaying = !isPlaying));
+        setIsPlaying(!isPlaying);
     }
 
     return (

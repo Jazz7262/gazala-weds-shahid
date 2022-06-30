@@ -1,0 +1,25 @@
+/* Big Screens */
+#urdu-section #couple .title-quote {
+    font-family: 'Gulzar', serif;
+    word-spacing: 4px;
+}
+
+#urdu-section #couple h3 {
+    line-height: 2.5;
+}
+
+#urdu-section #couple p {
+    line-height: 2;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

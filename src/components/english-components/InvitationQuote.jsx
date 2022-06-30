@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/InvitationQuote.css";
+import "./styles/InvitationQuote.css";
 
 function InvitationQuote() {
     return (

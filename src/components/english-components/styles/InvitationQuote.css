@@ -1,6 +1,6 @@
 /* Big Screens */
 #invitation-quote {
-    background: url("../../public/assets/images/bg-img.jpg") repeat fixed 100%;
+    background: url("../../../../public/assets/images/bg-img.jpg") repeat fixed 100%;
 }
 
 #invitation-quote .inner-content {
@@ -28,7 +28,7 @@
 /* New Mobile Phones Wide Screens */
 @media (max-width: 428px) {
     #invitation-quote {
-        background: url("../../public/assets/images/bg-img-sm.gif") repeat fixed
+        background: url("../../../../public/assets/images/bg-img-sm.gif") repeat fixed
             100%;
     }
     #invitation-quote .inner-content {

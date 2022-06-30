@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/BabiesQuote.css";
+import "./styles/BabiesQuote.css";
 
 function BabiesQuote() {
     return (

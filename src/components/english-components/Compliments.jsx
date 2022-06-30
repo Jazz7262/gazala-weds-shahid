@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Compliments.css";
+import "./styles/Compliments.css";
 
 function Compliments() {
     return (

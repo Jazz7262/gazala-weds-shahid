@@ -1,6 +1,7 @@
 /* Big Screens */
 #couple {
     padding: 7% 7% 0;
+    box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.492);
 }
 
 #couple .title-quote {
