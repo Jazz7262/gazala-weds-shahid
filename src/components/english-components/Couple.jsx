@@ -103,7 +103,7 @@ function Couple() {
                         <p>
                             Eldest S/O Janab R. Mohammed Shareef Sahab,
                             <br />
-                            Grand S/O Janab R. Abdul Khader Sahab(Late),
+                            Grand S/O Janab Alhaaj R. Abdul Khader Naqshbandi Sahab(Late),
                             <br />
                             H.No.: 25/341, Havanapet,
                             <br />
