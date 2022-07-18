@@ -97,7 +97,7 @@ function Couple() {
                         </h3>
                         <p>
                             <strong>
-                                Pvt. Ltd. پیشہ: میکانیکل انجنير الٹي انڈیا
+                                Pvt. Ltd. پیشہ: میکانیکل انجنير الٹين انڈیا
                             </strong>
                         </p>
                         <p>
